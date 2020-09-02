@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<button wx:if="{{canIUse}}" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo">
+  <view class="root">
+    <image class='background-image' src='../image/home.jpg' mode="aspectFill"></image>
+    <view class="content">
+    </view>
+  </view>
+</button>
+<view wx:else>请升级微信版本后再试。</view>
+<view wx:if="{{canIUse}}" class='home'>任意点击屏幕进入首页</view>

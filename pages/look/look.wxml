@@ -1,0 +1,11 @@
+<!--pages/look/look.wxml-->
+<view wx:if="{{vemss.length}}" class="vemss_">-----------------------------------------------------------------------------------------</view>
+<view wx:if="{{vemss.length}}">V2Ray(复制到剪切板后导入):</view>
+<text wx:if="{{vemss.length}}" selectable="true" class='vemss'>{{vemss}}</text>
+<view wx:if="{{vemss.length}}" class="item7">-----------------------------------------------------------------------------------------</view>
+<!-- <view class='line' wx:if="{{ss.length}}">---------------------------------------------------------------------------------</view>
+<view wx:if="{{ss.length}}" class="ss_">Shadowsocks(复制到剪切板后导入):</view>
+<text wx:if="{{ss.length}}" selectable="true" class='ss'>{{ss}}</text> -->
+<view class='go' bindtap="go">
+  点击下载常用软件
+</view>

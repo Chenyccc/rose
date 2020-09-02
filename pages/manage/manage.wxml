@@ -1,0 +1,15 @@
+<!--pages/manage/manage.wxml-->
+<view class='log'>隐 藏 页 面</view>
+<view class='acc'>
+账  号:
+    <input bindinput="acc" value="{{acc}}"/>
+</view>
+<view class='mima'>
+密  码:
+  <view class='info'>
+        <input bindinput="mima" password="true"/>
+  </view>
+</view>
+<view class='master' hover-class="btn-hover" bindtap="click_master">
+登录
+</view>

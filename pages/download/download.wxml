@@ -1,0 +1,27 @@
+<!--pages/download/download.wxml-->
+<view class="item1">常用软件下载链接</view>
+<view>安卓系统:</view>
+<view>V2Ray运行软件:</view>
+<text selectable="true">https://726f-rose-mgnwv-1301318326.tcb.qcloud.la/v2rayNG_1.1.14.apk?sign=e54a4fda798f990f3c972e5c00a14450&t=1583329775</text>
+<view>谷歌商店(用于下载ins,youtube等软件):</view>
+<text selectable="true">https://726f-rose-mgnwv-1301318326.tcb.qcloud.la/Google_Play.apk?sign=22b13ad0578e740743a543d4f0e0d349&t=1583338531</text>
+<view class="item7">-----------------------------------------------------------------------------------------</view>
+<view class="item4">Windows系统:</view>
+<view>V2Ray运行软件:</view>
+<text selectable="true">https://726f-rose-mgnwv-1301318326.tcb.qcloud.la/v2rayN.zip?sign=bfb645511a1a62061b8293e8be4cd971&t=1582034379</text>
+<!-- <view class="item2">Shadowsocks下载链接</view>
+<view>安卓系统:</view>
+<text selectable="true">https://726f-rose-mgnwv-1301318326.tcb.qcloud.la/ShadowsocksR-3.4.0.8.apk?sign=731f144606463e35269b8c3fadde8838&t=1583329902</text>
+<view class="item5">Windows系统:</view>
+<text selectable="true">https://726f-rose-mgnwv-1301318326.tcb.qcloud.la/shadowsocks.zip?sign=6cc454b715f5d1c051d1917a15bbc972&t=1582034430</text> -->
+<view class="item7">-----------------------------------------------------------------------------------------</view>
+<view>高贵的苹果系统需要自行购买美区或日区账号下载:</view>
+<view>V2Ray运行软件(iOS):</view>
+<text selectable="true">https://apps.apple.com/us/app/shadowrocket/id932747118</text>
+<view>V2Ray运行软件(Mac):</view>
+<text selectable="true">https://github.com/Cenmrev/V2RayX/releases</text>
+
+
+
+
+

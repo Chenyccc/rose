@@ -1,0 +1,6 @@
+<!--pages/help/help.wxml-->
+<view class="root">
+  <image class='background-image' src='../image/help.jpg' mode="aspectFill"></image>
+  <view class="content">
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/log/log.wxml-->
+
+
+<view class="root">
+  <image class='background-image' src='../image/1.jpg' mode="aspectFill" bindtap="manage"></image>
+  <view class="content">
+      <view class="help" bindtap="help">帮助</view>
+      <button class='user' hover-class="btn-hover" bindtap="look">
+        GO !
+      </button>
+      <!-- <view class='manage' hover-class="btn-hover" bindtap="manage">
+        功能开发中...
+      </view> -->
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/manage_info/manage_info.wxml-->
+<view class='title'>
+      <h>用户记录</h>
+</view>
+<view class="item7">-----------------------------------------------------------------------------------------</view>
+<view class='htrItemContent' wx:if="{{history.length!=0}}">
+  <block wx:for="{{history}}" wx:key='idd'>
+    <view class='Content' bindtap="change" id="{{item.idd}}">
+      <view class='htrItem'>openID：{{item.id}}</view>
+      <view class='htrItem'>用户名：{{item.nickName}}</view>
+      <view class='htrItem'>所在地：{{item.country}}-{{item.province}}-{{item.city}}</view>
+      <view class='htrItem'>时间：{{item.time}}</view>
+      <view class="item7">-----------------------------------------------------------------------------------------</view>
+    </view>
+  </block> 
+</view>

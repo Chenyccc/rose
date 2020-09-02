@@ -1,0 +1,22 @@
+/* pages/manage_info/manage_info.wxss */
+.title{
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx;
+}
+.item7{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.Content{
+  margin-left: 25rpx;
+  display: flex;
+  flex-direction: column;
+}

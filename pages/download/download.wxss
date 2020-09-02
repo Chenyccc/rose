@@ -1,0 +1,51 @@
+/* pages/download/download.wxss */
+  
+text{
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  display: flex;
+  word-break:break-all;
+}
+.item0{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item2{
+  margin-top: 15rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item3{
+  margin-top: 15rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.item5{
+  margin-top: 15rpx;
+}
+.item6{
+  margin-top: 15rpx;
+}
+.item7{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
